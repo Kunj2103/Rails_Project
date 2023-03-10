@@ -9,7 +9,8 @@ Here i have completed some of query with it's result
 ![Screenshot from 2023-03-08 15-17-32](https://user-images.githubusercontent.com/126135277/224090101-a69d0d07-20de-4989-8074-535be94d5104.png)
 
 3. Make query which return hash where key of hash is category_id and value is collection of that categories items.
-![Screenshot from 2023-03-08 15-50-26](https://user-images.githubusercontent.com/126135277/224090319-4506e31f-6399-41c2-92f2-f376832e2944.png)
+![Screenshot from 2023-03-10 12-24-21](https://user-images.githubusercontent.com/126135277/224290138-4c4f5b15-615b-48d5-82db-01fad4083867.png)
+
 
 4. Returns a list of items which categories are inactive and rating is below 4.
 ![Screenshot from 2023-03-09 12-02-32](https://user-images.githubusercontent.com/126135277/224091210-d79c5665-ecb5-45bb-8445-4dea4802fa0f.png)
@@ -31,4 +32,4 @@ Here i have completed some of query with it's result
 
 
 10. Return uniq and active items records which has price between 10 to 20.
-![Screenshot from 2023-03-08 23-17-46](https://user-images.githubusercontent.com/126135277/224090834-280f03d8-3ed5-4f68-a7a5-268a5c781b9b.png)
+![Screenshot from 2023-03-10 15-43-50](https://user-images.githubusercontent.com/126135277/224289844-bb8e6cfe-224f-4243-b767-00ea8a4f57c4.png)
