@@ -1,5 +1,5 @@
 class AdminController < ApplicationController
-  before_action :require_admin, expect: [:index]
+  before_action :require_admin, except: [:index]
   # before_action :require_admin
 
   def admin
