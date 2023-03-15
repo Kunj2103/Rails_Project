@@ -1,0 +1,47 @@
+<%= form_with(model: product, local: true) do |form| %>
+  <div>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+    <% product.errors.full_messages_for(:name).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :description %><br>
+    <%= form.text_area :description %>
+    <% product.errors.full_messages_for(:description).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :color %><br>
+    <%= form.text_field :color %>
+    <% product.errors.full_messages_for(:color).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :company_name %><br>
+    <%= form.text_field :company_name %>
+    <% product.errors.full_messages_for(:company_name).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :rating %><br>
+    <%= form.text_field :rating %>
+    <% product.errors.full_messages_for(:rating).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.label :price %><br>
+    <%= form.text_field :price %>
+   <% product.errors.full_messages_for(:price).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,7 @@
+<p><%= @user.name %></p>
+<p><%= @user.email %></p>
+<p><%= @user.isAdmin %></p>
+
+<li>
+  <%= link_to "Destroy", user_path(@user), data: { turbo_method: :delete } %>
+</li>

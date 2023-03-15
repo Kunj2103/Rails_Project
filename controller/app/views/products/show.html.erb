@@ -1,0 +1,10 @@
+<p><%= @product.name %></p>
+<p><%= @product.description %></p>
+<p><%= @product.color %></p>
+<p><%= @product.company_name %></p>
+<p><%= @product.rating %></p>
+<p><%= @product.price %></p>
+
+<li>
+  <%= link_to "Destroy", product_path(@product), data: { turbo_method: :delete } %>
+</li>
