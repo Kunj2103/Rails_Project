@@ -1,5 +1,6 @@
 class ProductsController < AdminController
-  before_action :require_admin, only: [:new, :create, :destroy]
+  # before_action :require_admin, only: [:new, :create, :destroy]
+  skip_before_action :require_admin, only: [:index]
 
   def index
     @products = Product.search(params[:search])
