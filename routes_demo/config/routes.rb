@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   # root "admin/users#index"
   resources :photos, except: [:show]
   get "/photos(/:id)", to: "photos#show"
+  get "/photos/message", to: "photos#message"
+
   namespace :admin do
     resources :users
   end
