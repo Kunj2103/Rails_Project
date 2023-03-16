@@ -1,0 +1,11 @@
+<p>here</p>
+
+<h2>All Users</h2>
+<% @users.each do |user| %>
+  <li>
+    <%= link_to user.username, admin_user_path(user) %>
+  </li>
+<% end %>
+<button>
+<%= link_to "New User", new_admin_user_path %>
+</button>

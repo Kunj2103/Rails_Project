@@ -1,0 +1,17 @@
+<p>
+FirstName : <%= @user.first_name %>
+</p>
+<p>
+LastName : <%= @user.last_name %>
+
+</p>
+<p>
+Username : <%= @user.username %>
+</p>
+
+<li>
+  <%= link_to "Update", edit_admin_user_path(@user) %>
+</li>
+<li>
+  <%= link_to "Destroy", admin_user_path(@user), data: { turbo_method: :delete, turbo_confirm: "Are you sure??" } %>
+</li>

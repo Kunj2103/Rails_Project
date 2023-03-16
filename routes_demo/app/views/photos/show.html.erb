@@ -1,0 +1,14 @@
+<p>
+PhotoName : <%= @photo.name %>
+</p>
+<p>
+Photo URL: <%= @photo.url %>
+
+</p>
+
+<li>
+  <%= link_to "Update", edit_photo_path(@photo) %>
+</li>
+<li>
+  <%= link_to "Destroy", photo_path(@photo), data: { turbo_method: :delete, turbo_confirm: "Are you sure??" } %>
+</li>
